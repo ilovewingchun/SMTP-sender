@@ -14,7 +14,7 @@ $o{t} ||= $DEFAULT_RECIPIENT;
 $o{s} ||= 'Virus email test';
 
 if ($o{h} or !@ARGV) {
-    die "Please enter the right arguments:\n\t$0 [-h] [-f from] [-t to] [-s subject] files(or directory) ...\n";
+    die "Please enter the right arguments:\n\t$0 [-h] [-f from] [-t to] [-s subject] files(or directory/*) ...\n";
 }
 
 print "SMTP server ip : [0.0.0.0] ";

@@ -14,7 +14,7 @@ $o{t} ||= $DEFAULT_RECIPIENT;
 $o{s} ||= 'Virus email test';
 
 if ($o{h} or !@ARGV) {
-    die "請輸入相關參數:\n\t$0 [-h] [-f from] [-t to] [-s subject] files(or directory) ...\n";
+    die "請輸入相關參數:\n\t$0 [-h] [-f from] [-t to] [-s subject] files(or directory/*) ...\n";
 }
 
 print "SMTP server ip : [0.0.0.0] ";

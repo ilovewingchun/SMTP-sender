@@ -1,6 +1,12 @@
 This perl script is used to send emails that attach multiple files as attchments.
 Multiple attachments will be sent one by one, resursively.
+You will need to specify SMTP server location during the scrpit. By default it is 0.0.0.0, remember to give it a proper location.
+You will also be prompted with how many times do you want to repeat. This is for stress testing.
 In the end of the script, it will calculate how much time does it spend on sending all emails.
+
+
+Usage:
+smtp_sender_eng.pl [-h] [-f from] [-t to] [-s subject] files(or directory/*)
 
 For example:
 
