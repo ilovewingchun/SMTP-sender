@@ -6,7 +6,7 @@ In the end of the script, it will calculate how much time does it spend on sendi
 
 
 Usage: 
-<p><code><pre>smtp_sender_eng.pl [-h] [-f from] [-t to] [-s subject] files(or directory/*)
+<code><pre>smtp_sender_eng.pl [-h] [-f from] [-t to] [-s subject] files(or directory/*)
 </code></pre>
 
 For example: 
