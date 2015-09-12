@@ -5,13 +5,9 @@ You will also be prompted with how many times do you want to repeat. This is for
 In the end of the script, it will calculate how much time does it spend on sending all emails.
 
 
-Usage:
-
-<code><pre>smtp_sender_eng.pl [-h] [-f from] [-t to] [-s subject] files(or directory/*)
+Usage:<code><pre>smtp_sender_eng.pl [-h] [-f from] [-t to] [-s subject] files(or directory/*)
 </code></pre>
-For example:
-
-<code><pre>$ perl smtp_sender_eng.pl -f sender@test.com -t recipient@test.com -s "My Subjects" /var/files/file1 /var/files/file2 
+For example:<code><pre>$ perl smtp_sender_eng.pl -f sender@test.com -t recipient@test.com -s "My Subjects" /var/files/file1 /var/files/file2 
 Please enter SMTP server ip : [0.0.0.0] 192.168.1.1
 
 Using SMTP server: 192.168.1.1
