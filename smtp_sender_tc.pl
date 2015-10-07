@@ -11,7 +11,7 @@ getopts('hf:t:s:', \%o);
 
 $o{f} ||= $DEFAULT_SENDER;
 $o{t} ||= $DEFAULT_RECIPIENT;
-$o{s} ||= 'Virus email test';
+$o{s} ||= '';
 
 if ($o{h} or !@ARGV) {
     die "請輸入相關參數:\n\t$0 [-h] [-f from] [-t to] [-s subject] files(or directory/*) ...\n";
